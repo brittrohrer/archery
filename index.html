@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Archery Homepage</title>
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
         <header>
             <figure>
-                <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-color.png?raw=true" alt="STPA logo">
+                <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-white.png?raw=true" alt="STPA logo">
             </figure>
-            <p>Straight to the Point Archery</p>
+            <p class="header-title">Straight to the Point Archery</p>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -20,13 +21,13 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <article>
-                <h1>Welcome to Straight to the Point Archery</h1>
-                <section>
-                    <h2>From Beginner to Elite</h2>
+        <main class="home-page-grid">
+            <article class="welcome">
+                <h1>Welcome to Straight to the Point Archery!</h1>
+                <h2>From Beginner to Elite</h2>
                     <p>STPA is for archers of all ages and ability who wish to learn about this exciting Olympic and international sport.</p>
-                </section>
+            </article>
+            <article class="home-page-about">
                 <section>
                     <h2>About Us</h2>
                     <p>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.    
@@ -44,19 +45,29 @@
                         <li>Access to 26  additional  20 yard lanes</li>
                         <li>Outdoor shooting field</li>
                     </ul>
-                    <p>Stop in for a tour!</p>
                     <figure>
-                        <img src="#" alt="pic of facility">
+                        <img src="https://s0.geograph.org.uk/photos/14/18/141860_ce5e8d07.jpg" alt="pic of facility">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Liverpool_City_Archers_03.jpg" alt="pic of outside range">
                     </figure>
                 </section>
                 <section>
                     <h3>What We Offer</h3>
-                    <p>We offer several types of lessons to accommodate everyone from the first time archer to the professional archer. Once set up with proper fitting equipment, each archer will be given the basic safety instruction to start and will be introduced to various shooting techniques.
-                        From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.  Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.
-                        Our staff promote a positive learning environment. Our instructors are knowledgable in all forms of archery from long bow to the modern compound.  And instructors specific to different archery practices.</p>
+                    <ul>
+                        <li>We offer several types of lessons to accommodate everyone from the first time archer to the professional archer.</li>
+                        <li>Once set up with proper fitting equipment, each archer will be given the basic safety instruction to start and will be introduced to various shooting techniques.</li>
+                        <li>Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.</li>
+                        <li>Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities.</li>
+                        <li>We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.</li>
+                        <li>Our instructors are knowledgable in all forms of archery from long bow to the modern compound.</li>
+                        <li>Instructors specific to different archery practices.</li>
+                        <li>Our staff promote a positive learning environment. </li>
+                    </ul>
                 </section>
+            </article>    
+            <article class="location">
                 <section>
-                    <h3>Location</h3>
+                    <h2>Location</h2>
+                    <p>Stop in for a tour!</p>
                     <p>Straight to the Point Archery<br>
                         528 Nock Point Ln<br>
                         Tacoma, WA 98412</p>
@@ -65,12 +76,13 @@
                     </figure>
                 </section>
             </article>    
-            <aside>
+            <aside class="home-page-aside">
                 <h3>Ready to Become an Archer?</h3>
                 <p>Walk in or sign up online.</p>
                     <a href="services.html">View Our Services</a>
                     <a href="#">Sign Up</a>
             </aside>
+
         </main>
         <footer>
             <article>
