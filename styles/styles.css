@@ -71,22 +71,22 @@ main {
     margin: 4rem;
 }
 .about {
-    grid-column: 1 / span 4;
-    grid-row: 1;
+    grid-area: 1 / 1 / 2 / 4;
 }
 .about h1 {
     text-align: center;
 }
 .instructors-list {
-   grid-column: 1 / span 4;
-   grid-row: 2;
+    grid-area: 2 / 2 / 3 / 3;
 }
 .instructors-list figure {
-    float: left;
+    
 }
 .instructor {
+    display: flex;
     background: #1b447f;
     color: white;
+    justify-content: space-between;
     margin: 4rem;
     padding: 1rem;
 }
