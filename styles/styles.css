@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Every Page Grid Setup*/
 body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -10,10 +10,29 @@ body {
         "header header header header"
         "main main main main"
         "footer footer footer footer";
-    gap: 2rem;
+    row-gap: 1rem;
     margin: 0;
     color: #444444;
 }
+header {
+    grid-area: header;
+    background: #03a3df;
+    color: white;
+    padding: 2rem;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+    background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 250px;
+}
+
 /* Text */
 h1 {
     font-size: 40px;
@@ -37,14 +56,8 @@ p {
 }
 
 /* Header/Top Navigation*/
-header {
-    grid-area: header;
-    background: #03a3df;
-    color: white;
-    padding: 2rem;
-}
 .header-title {
-    font-size: 4rem;
+    font-size: 60px;
     font-weight: bold;
 }
 header ul {
@@ -59,39 +72,6 @@ header a {
     padding-right: 1rem;
     color: white;
 }
-main {
-    grid-area: main;
-}
-
-/* Instructor Page*/
-.instructor-section {
-    display: grid;
-    margin: 4rem;
-}
-.about {
-    grid-area: 1 / 1 / 2 / 7;
-}
-.about h1 {
-    text-align: center;
-}
-.instructors-list {
-    grid-area: 2 / 3 / 3 / 5;
-}
-.instructor {
-    display: flex;
-    align-items: center;
-    background: #1b447f;
-    color: white;
-    margin: 4rem;
-    padding: 1rem;
-}
-.instructor h2 {
-    margin-top: 0;
-}
-.instructor h3 {
-    color: #ecb722;
-}
-
 
 /* Homepage */
 .home-page-grid {
@@ -115,6 +95,12 @@ main {
     padding: 1rem;
     border: 3px solid #03a3df;
 }
+.location {
+    grid-area: 3 / 1 / 4 / 7;
+    padding: 2rem;
+    border: 3px solid #ecb722;
+}
+
 .aside-title {
     font-size: 30px;
     font-weight: bold;
@@ -144,6 +130,7 @@ main {
     text-decoration: none;
     color: #444444;
 }
+
 .home-page-about h2 {
     text-decoration: underline #ecb722 4px;
     text-underline-offset: 5px;
@@ -151,11 +138,6 @@ main {
 .home-page-about h3 {
     text-decoration: underline #ecb722 2px;
     text-underline-offset: 5px;
-}
-.location {
-    grid-area: 3 / 1 / 4 / 7;
-    padding: 2rem;
-    border: 3px solid #ecb722;
 }
 
 .location-grid-container {
@@ -204,7 +186,37 @@ main {
 .facility-3 {
     grid-area: 3 / 1 / 4 / 3;
     margin: 0;
+    margin-top: 1rem;
     text-align: center;
+}
+
+/* Instructor Page*/
+.instructor-section {
+    display: grid;
+    margin: 1rem 4rem;
+}
+.about {
+    grid-area: 1 / 1 / 2 / 7;
+}
+.instructors-list {
+    grid-area: 2 / 3 / 3 / 5;
+}
+.about h1 {
+    text-align: center;
+}
+.instructor {
+    display: flex;
+    align-items: center;
+    background: #1b447f;
+    color: white;
+    margin: 4rem;
+    padding: 1rem;
+}
+.instructor h2 {
+    margin-top: 0;
+}
+.instructor h3 {
+    color: #ecb722;
 }
 
 /* Services Page*/
@@ -251,16 +263,3 @@ main {
 .class-option p {
     padding: .5rem;
 }
-
-/* Footer*/
-footer {
-    grid-area: footer;
-    background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    padding: 1rem;
-    height: 250px;
-}
-
-
