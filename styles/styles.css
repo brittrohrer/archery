@@ -101,6 +101,9 @@ header a {
     border: 3px solid #ecb722;
 }
 
+.intro p:first-of-type {
+    padding-bottom: 1rem;
+}
 .aside-title {
     font-size: 30px;
     font-weight: bold;
@@ -266,4 +269,14 @@ header a {
 }
 .class-option p {
     padding: .5rem;
+}
+
+/* Footer */
+.contact-info-section h4 {
+    text-decoration: underline white 2px;
+    text-underline-offset: 3px;
+}
+.contact-info-section p {
+    display: block;
+    padding-bottom: 1rem;
 }
