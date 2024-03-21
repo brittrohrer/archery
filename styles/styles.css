@@ -162,12 +162,16 @@ header a {
     text-align: right;
     margin: 0;
 }
+.address {
+    padding-bottom: 1rem;
+}
 .tour-text {
     padding: 1rem;
-    font-size: 40px;
+    font-size: 30px;
     background: #03a3df;
     color: white;
     text-align: center;
+    border-radius: 10px;
 }
 
 .facility-grid-container {
@@ -259,7 +263,7 @@ header a {
 }
 .membership-option-2 a {
     text-decoration: none;
-    color: #444444;
+    color: white;
     background: #03a3df;
     padding: .5rem;
 }
