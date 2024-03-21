@@ -60,6 +60,9 @@ p {
     font-size: 60px;
     font-weight: bold;
 }
+header figure {
+    margin: 0;
+}
 header ul {
     list-style-type: none;
     padding: 0;
