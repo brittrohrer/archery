@@ -190,6 +190,7 @@ header a {
     text-align: center;
 }
 
+
 /* Instructor Page*/
 .instructor-section {
     display: grid;
@@ -222,6 +223,9 @@ header a {
 /* Services Page*/
 .services-page {
     margin: 4rem;
+}
+.services-page h1 {
+    text-align: center;
 }
 .membership-container {
     border-bottom: 5px solid #ecb722;
