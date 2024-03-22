@@ -293,3 +293,15 @@ header a:hover {
     display: block;
     padding-bottom: 1rem;
 }
+
+/* iframe*/
+.video {
+    border: none;
+}
+.credit a {
+    text-decoration: none;
+    color: white;
+}
+.credit a:hover {
+    color: #ecb722;
+}
