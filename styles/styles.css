@@ -143,6 +143,10 @@ header a:hover {
     text-decoration: none;
     color: #444444;
 }
+.aside-links a:hover {
+    background: #444444;
+    color:#ecb722;
+}
 
 .home-page-about h2 {
     text-decoration: underline #ecb722 4px;
