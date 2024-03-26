@@ -35,29 +35,29 @@ footer {
 
 /* Text */
 h1 {
-    font-size: 40px;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 h2 {
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
 }
 h3 {
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: bold;
 }
 p {
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: normal;
     margin: 0;
 }
 .credit {
-    font-size: 12px;
+    font-size: .8rem;
 }
 
 /* Header/Top Navigation*/
 .header-title {
-    font-size: 60px;
+    font-size: 5rem;
     font-weight: bold;
 }
 header figure {
@@ -113,7 +113,7 @@ header a:hover {
     padding-bottom: 1rem;
 }
 .aside-title {
-    font-size: 30px;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
 }
@@ -124,7 +124,7 @@ header a:hover {
     width: 70%;
 }
 .aside-text{
-    font-size: 25px;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -173,7 +173,7 @@ header a:hover {
 }
 .tour-text {
     padding: 1rem;
-    font-size: 30px;
+    font-size: 2.5rem;
     background: #03a3df;
     color: white;
     text-align: center;
