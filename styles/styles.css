@@ -322,9 +322,26 @@ header a:hover {
     color: #ecb722;
 }
 
+/*Accessiblity add-ons*/
 a:focus {
     outline: 4px solid black;
     outline-offset: 2px;
     background-color: white;
     color: black;
+}
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    z-index: 999;
+    padding: 1rem;
+    background: white;
+    color: #444444;
+    opacity: 0;
+    text-decoration: none;
+}
+.skip-link:focus {
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 1;
 }
