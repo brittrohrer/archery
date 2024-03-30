@@ -145,15 +145,15 @@ header a:hover {
     width: auto;
 }
 .aside-links a {
-    background: #ecb722;
+    background: #03a3df;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #444444;
+    color: black;
 }
 .aside-links a:hover {
-    background: #444444;
-    color:#ecb722;
+    background: #1b447f;
+    color:white;
 }
 
 .home-page-about h2 {
@@ -189,8 +189,8 @@ header a:hover {
     padding: 1rem;
     font-size: 1.8rem;
     color: #444444;
+    outline: 5px double #ecb722;
     text-align: center;
-    background-color: #03a3df80;
     font-weight: bold;
 }
 
@@ -284,8 +284,8 @@ header a:hover {
 }
 .membership-option-2 a {
     text-decoration: none;
-    color: #444444;
-    background: #03a3df80;
+    color: black;
+    background: #03a3df;
     padding: .5rem;
 }
 .membership-option-2 a:hover {
@@ -320,4 +320,11 @@ header a:hover {
 }
 .credit a:hover {
     color: #ecb722;
+}
+
+a:focus {
+    outline: 4px solid black;
+    outline-offset: 2px;
+    background-color: white;
+    color: black;
 }
